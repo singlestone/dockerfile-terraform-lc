@@ -1,6 +1,5 @@
-#   * tf_persistent_storage
 module "tf_persistent_storage" {
-  source      = "modules/github_repo"
+  source      = "github.com/singlestone/tf_github_repo_init"
   name        = "tf_persistent_storage"
   description = "DockerFile for building Terraform AWS Provider Image"
 }

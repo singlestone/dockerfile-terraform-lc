@@ -1,5 +1,5 @@
 module "tf_remote_backup_storage" {
-  source      = "modules/github_repo"
+  source      = "github.com/singlestone/tf_github_repo_init"
   name        = "tf_remote_backup_storage"
   description = "Terraform for building Terraform AWS Provider Image"
 }

@@ -1,5 +1,5 @@
 module "tf_source_control" {
-  source      = "modules/github_repo"
+  source      = "github.com/singlestone/tf_github_repo_init"
   name        = "tf_source_control"
   description = "DockerFile for building Terraform Image"
 }
